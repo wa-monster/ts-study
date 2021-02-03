@@ -1,0 +1,3 @@
+const str = "2222";
+console.log(str);
+$();

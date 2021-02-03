@@ -1,0 +1,16 @@
+"use strict";
+
+var _jquery = _interopRequireDefault(require("jquery"));
+
+function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
+
+// const str: string = "2222";
+// console.log(str);
+// $(function () {
+//   $("body").html("<div>123</div>");
+//   new $.fn.init();
+// });
+(0, _jquery.default)(function () {
+  (0, _jquery.default)("body").html("<div>123</div>");
+  new _jquery.default.fn.init();
+});
